@@ -28,8 +28,31 @@
                     color:aliceblue
 
                 }
+                a:link {
+  
+  background-color: transparent;
+  text-decoration: none;
+}
+                a:visited {
+                     color:white;
+                    background-color: transparent;
+                     text-decoration: none;
+                    
+                }
+             a:hover {
+                    color: red;
+                    background-color: transparent;
+                    text-decoration: none;
+
+                }
+                div p{
+                    color:rgb(177, 171, 171);
+                }
+                div + p{
+                    color:rgb(115, 255, 0)
+                }
         </style>
-    </head>
+            </head>
     <body>
         <h1 class="head">CSS Selectors:</h1>
         <br>
@@ -41,5 +64,9 @@
             
             To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
           <br><a href="https://www.google.com/" target="_blank">Click here to open google</a>
+          <div>
+              <p>Descendant Selector</p>
+          </div>
+          <p>A combinator is something that explains the relationship between the selectors.</p>
     </body>
 </html>
